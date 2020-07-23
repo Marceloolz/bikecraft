@@ -1,4 +1,10 @@
-$BlueEco: #5fabe9;
-$BlueDarkEco: #5092c6;
-$GrayDarkEco: #626262;
-$GrayLightEco: #e0e0e0;
+$Color1: #FEC63E;
+$Color2: #000;
+$Color3: #fff;
+
+%HoverSuave{
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}

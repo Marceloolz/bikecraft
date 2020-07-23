@@ -1,7 +1,7 @@
 {
-  "name": "Bikecraft",
+  "name": "apsa-gpu",
   "version": "1.0.0",
-  "description": "Projeto do site Bikecraft (HTML, CSS e JS), para o curso de Web Design Completo da Origamid.",
+  "description": "LP APSA GPU",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "Hotsite"
   ],
-  "author": "Marcelo Gomes Ferreira",
+  "author": "Marcelo Ferreira",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
