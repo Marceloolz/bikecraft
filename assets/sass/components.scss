@@ -1,0 +1,21 @@
+.Formgroup{
+    .Formgroup_Button{
+        .Formgroup_Button_Item{
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 10px 24px;
+            &.__is-outline{
+                background: none;
+                border: 4px solid $Color1;
+                color: $Color1;
+                @extend %HoverSuave;
+                &:hover{
+                    background-color: $Color1;
+                    color: $Color2;
+                }
+            }
+        }
+    }
+}

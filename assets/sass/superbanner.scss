@@ -1,0 +1,65 @@
+.Site_Superbanner{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0px;
+    &.__is-banner1{
+        background-image: url('../img/superbanner/bg-superbanner1.jpg');
+    }
+    .Site_Superbanner_Container{
+        width: 90%;
+        max-width: 1200px;
+        .Superbanner_Container_Titulo{
+            color: $Color3;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        .Superbanner_Container_Subtitulo{
+            color: $Color3;
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 24px 0px;
+            font-style: italic;
+            font-family: Georgia, Times, "Times New Roman", serif;
+            &:after{
+                display: block;
+                content: ' ';
+                width: 80px;
+                height: 4px;
+                background-color: $Color3;
+                margin-top: 8px;
+            }
+            &:before{
+                display: block;
+                content: ' ';
+                width: 80px;
+                height: 4px;
+                margin-bottom: 8px;
+                background-color: $Color3;
+            }
+        }
+        .Superbanner_Container_SubtituloAutor{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            color: $Color3;
+        }
+        .Superbanner_Container_Button{
+            .Container_Button_Content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 40px;
+            }
+        }
+    }
+}
