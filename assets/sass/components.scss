@@ -1,3 +1,5 @@
+//Formulários
+
 .Formgroup{
     .Formgroup_Button{
         .Formgroup_Button_Item{
@@ -16,6 +18,82 @@
                     color: $Color2;
                 }
             }
+        }
+    }
+}
+
+
+//Títulos
+
+.ComponentHeader{
+    .ComponentHeader_TituloH1{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &.__is-Branco{
+            color: $Color3;
+        }
+        &:after{
+            display: block;
+            content: ' ';
+            width: 80px;
+            height: 4px;
+            background-color: $Color3;
+            margin-top: 8px;
+        }
+    }
+
+    .ComponentHeader_TituloH2{
+        color: $Color3;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &.__is-Branco{
+            color: $Color3;
+        }
+        &.__is-Preto{
+            color: $Color2;
+        }
+        &:after{
+            display: block;
+            content: ' ';
+            width: 80px;
+            height: 4px;
+            background-color: $Color2;
+            margin-top: 8px;
+        }
+    }
+
+    .ComponentHeader_TituloH3{
+        color: $Color3;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &.__is-Branco{
+            color: $Color3;
+        }
+        &.__is-Preto{
+            color: $Color2;
+        }
+        &:after{
+            display: block;
+            content: ' ';
+            width: 80px;
+            height: 4px;
+            background-color: $Color2;
+            margin-top: 8px;
         }
     }
 }

@@ -1,0 +1,31 @@
+.Site_Produtos{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    .Site_Produtos_Container{
+        width: 90%;
+        max-width: 1200px;
+        .Produtos_Container_Titulo{
+            margin-bottom: 40px;
+        }
+        .Produtos_Container_Cards{
+            .Container_Cards_Item{
+                .Cards_Item_BlockImage{
+                    background-color: $Color2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: calc(100% - 48px);
+                    padding: 24px;
+                }
+                .Cards_Item_BlockContent{
+                    padding: 24px;
+                    background-color: $Color1;
+                    .Item_BlockContent_Titulo{
+
+                    }
+                }
+            }
+        }
+    }
+}
