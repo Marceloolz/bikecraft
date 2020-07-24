@@ -123,7 +123,13 @@
 </div>
 
 <div class="Site_Qualidade">
-
+    <div class="Site_Qualidade_Container">
+        <div class="Qualidade_Container_Titulo ComponentHeader">
+            <div class="ComponentHeader_TituloH2 __is-Preto">
+                Qualidade
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 
