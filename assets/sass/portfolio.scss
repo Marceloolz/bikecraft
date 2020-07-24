@@ -20,10 +20,24 @@
                 }
             }
             .Container_Galeria_RowTwo{
+                margin-top: 8px;
                 .Galeria_RowTwo_Item{
                     img{
                         width: 100%;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 640px){
+    .Site_Porftolio{
+        .Site_Porftolio_Container{
+            .Porftolio_Container_Galeria{
+                .Container_Galeria_RowOne{
+                    grid-template-columns: 1fr;
+                    grid-gap: 8px;
                 }
             }
         }
