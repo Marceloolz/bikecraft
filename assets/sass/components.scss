@@ -58,16 +58,27 @@
         align-items: center;
         &.__is-Branco{
             color: $Color3;
+            &:after{
+                background-color: $Color3;
+            }
         }
         &.__is-Preto{
             color: $Color2;
+            &:after{
+                background-color: $Color2;
+            }
+        }
+        &.__is-Amarelo{
+            color: $Color1;
+            &:after{
+                background-color: $Color1;
+            }
         }
         &:after{
             display: block;
             content: ' ';
             width: 80px;
             height: 4px;
-            background-color: $Color2;
             margin-top: 8px;
         }
     }

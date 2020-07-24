@@ -64,5 +64,20 @@
                 }
             }
         }
+
+        .Produtos_Container_EncerramentoBlock{
+            margin-top: 32px;
+            .Container_EncerramentoBlock_Texto{
+                text-align: center;
+                font-family: Georgia,Times,"Times New Roman",serif;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .Container_EncerramentoBlock_Button{
+                margin-top: 8px;
+                display: flex;
+                justify-content: center;
+            }
+        }
     }
 }

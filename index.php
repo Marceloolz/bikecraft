@@ -38,7 +38,8 @@
                         Passeio
                     </div>
                     <div class="Item_BlockContent_Texto">
-                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado 
+                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo
+                        a ser o texto padrão usado
                     </div>
                 </div>
             </div>
@@ -52,7 +53,8 @@
                         Esporte
                     </div>
                     <div class="Item_BlockContent_Texto">
-                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado 
+                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo
+                        a ser o texto padrão usado
                     </div>
                 </div>
             </div>
@@ -66,8 +68,44 @@
                         Retrô
                     </div>
                     <div class="Item_BlockContent_Texto">
-                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado 
+                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo
+                        a ser o texto padrão usado
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="Produtos_Container_EncerramentoBlock Formgroup">
+            <div class="Container_EncerramentoBlock_Texto">
+                clique aqui e veja os detalhes dos produtos
+            </div>
+            <div class="Container_EncerramentoBlock_Button Formgroup_Button">
+                <button class="Formgroup_Button_Item __is-outline">
+                    Produtos
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Site_Porftolio">
+    <div class="Site_Porftolio_Container">
+        <div class="Porftolio_Container_Titulo ComponentHeader">
+            <div class="ComponentHeader_TituloH2 __is-Amarelo">
+                Portfólio
+            </div>
+        </div>
+        <div class="Porftolio_Container_Galeria">
+            <div class="Container_Galeria_RowOne">
+                <div class="Galeria_RowOne_Item">
+                    <img src="dist/img/galeria/foto1.jpg">
+                </div>
+                <div class="Galeria_RowOne_Item">
+                    <img src="dist/img/galeria/foto2.jpg">
+                </div>
+            </div>
+            <div class="Container_Galeria_RowTwo">
+                <div class="Galeria_RowTwo_Item">
+                    <img src="dist/img/galeria/foto3.jpg">
                 </div>
             </div>
         </div>

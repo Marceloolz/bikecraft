@@ -1,0 +1,31 @@
+.Site_Porftolio{
+    width: 100%;
+    background-color: $Color2;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    .Site_Porftolio_Container{
+        width: 90%;
+        max-width: 1200px;
+        .Porftolio_Container_Galeria{
+            margin-top: 32px;
+            .Container_Galeria_RowOne{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 12px;
+                .Galeria_RowOne_Item{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .Container_Galeria_RowTwo{
+                .Galeria_RowTwo_Item{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
