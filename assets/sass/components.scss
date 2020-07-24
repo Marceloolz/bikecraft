@@ -8,6 +8,7 @@
             font-size: 14px;
             font-weight: 700;
             padding: 10px 24px;
+            outline: none;
             &.__is-outline{
                 background: none;
                 border: 4px solid $Color1;
@@ -106,5 +107,28 @@
             background-color: $Color2;
             margin-top: 8px;
         }
+    }
+}
+
+.Component_EncerramentoBlock{
+    .Component_EncerramentoBlock_Texto{
+        text-align: center;
+        font-family: Georgia,Times,"Times New Roman",serif;
+        font-size: 16px;
+        line-height: 24px;
+        &.__is-Amarelo{
+            color: $Color1;
+        }
+        &.__is-Preto{
+            color: $Color2;
+        }
+        &.__is-Branco{
+            color: $Color3;
+        }
+    }
+    .Component_EncerramentoBlock_Button{
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
     }
 }

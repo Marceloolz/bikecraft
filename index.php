@@ -74,11 +74,11 @@
                 </div>
             </div>
         </div>
-        <div class="Produtos_Container_EncerramentoBlock Formgroup">
-            <div class="Container_EncerramentoBlock_Texto">
+        <div class="Produtos_Container_EncerramentoBlock Component_EncerramentoBlock Formgroup">
+            <div class="Component_EncerramentoBlock_Texto __is-Preto">
                 clique aqui e veja os detalhes dos produtos
             </div>
-            <div class="Container_EncerramentoBlock_Button Formgroup_Button">
+            <div class="Component_EncerramentoBlock_Button Formgroup_Button">
                 <button class="Formgroup_Button_Item __is-outline">
                     Produtos
                 </button>
@@ -109,7 +109,21 @@
                 </div>
             </div>
         </div>
+        <div class="Porftolio_Container_EncerramentoBlock Component_EncerramentoBlock Formgroup">
+            <div class="Component_EncerramentoBlock_Texto __is-Branco">
+                conheça mais o nosso portfólio
+            </div>
+            <div class="Component_EncerramentoBlock_Button Formgroup_Button">
+                <button class="Formgroup_Button_Item __is-outline">
+                    Portfólio
+                </button>
+            </div>
+        </div>
     </div>
+</div>
+
+<div class="Site_Qualidade">
+
 </div>
 </body>
 
