@@ -37,8 +37,36 @@
                     <div class="Item_BlockContent_Titulo ComponentHeader_TituloH3 __is-Preto">
                         Passeio
                     </div>
+                    <div class="Item_BlockContent_Texto">
+                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado 
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container_Cards_Item">
+                <div class="Cards_Item_BlockImage">
+                    <img src="dist/img/Icones/Produtos_Icone2.svg">
+                </div>
+                <div class="Cards_Item_BlockContent ComponentHeader">
                     <div class="Item_BlockContent_Titulo ComponentHeader_TituloH3 __is-Preto">
-                        Passeio
+                        Esporte
+                    </div>
+                    <div class="Item_BlockContent_Texto">
+                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado 
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container_Cards_Item">
+                <div class="Cards_Item_BlockImage">
+                    <img src="dist/img/Icones/Produtos_Icone3.svg">
+                </div>
+                <div class="Cards_Item_BlockContent ComponentHeader">
+                    <div class="Item_BlockContent_Titulo ComponentHeader_TituloH3 __is-Preto">
+                        Retrô
+                    </div>
+                    <div class="Item_BlockContent_Texto">
+                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado 
                     </div>
                 </div>
             </div>
