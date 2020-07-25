@@ -138,7 +138,7 @@
     <div class="Superbanner_Encerramento_Container">
         <div class="Encerramento_Container_Subtitulo">
             "o verdadeiro segredo da felicidade está em ter um genuíno
-            interesse por todos os detalhes da vida cotidiana"
+            interesse por todos os detalhes da vida cotidiana."
         </div>
     </div>
 </div>
