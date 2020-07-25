@@ -129,6 +129,17 @@
                 Qualidade
             </div>
         </div>
+
+        <?php include('includes/qualidade-grafico.php'); ?>
+    </div>
+</div>
+
+<div class="Site_Superbanner_Encerramento __is-banner1">
+    <div class="Superbanner_Encerramento_Container">
+        <div class="Encerramento_Container_Subtitulo">
+            "o verdadeiro segredo da felicidade está em ter um genuíno
+            interesse por todos os detalhes da vida cotidiana"
+        </div>
     </div>
 </div>
 </body>
