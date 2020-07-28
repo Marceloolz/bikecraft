@@ -70,3 +70,16 @@
         }
     }
 }
+
+@media screen and (max-width: 480px){
+    .Site_Produtos{
+        .Site_Produtos_Container{
+            width: 100%;
+            .Produtos_Container_Cards{
+                .Container_Cards_Item{
+                    margin: 0px 24px;
+                }
+            }
+        }
+    }
+}
