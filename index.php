@@ -140,8 +140,13 @@
             "o verdadeiro segredo da felicidade está em ter um genuíno
             interesse por todos os detalhes da vida cotidiana."
         </div>
+        <div class="Encerramento_Container_Autor">
+            WILLIAM MORRIS
+        </div>
     </div>
 </div>
+
+<?php include('includes/footer.php'); ?>
 </body>
 
 </html>

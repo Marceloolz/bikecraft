@@ -79,6 +79,14 @@
         z-index: 99;
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .Encerramento_Container_Autor{
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 14px;
+            color: $Color2;
+        }
         .Encerramento_Container_Subtitulo{
             color: $Color2;
             text-align: center;
