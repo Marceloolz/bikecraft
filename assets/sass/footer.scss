@@ -8,7 +8,7 @@
         max-width: 1200px;
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
-        grid-gap: 8px;
+        grid-gap: 16px;
         .Footer_Container_Bloco{
             .Container_Bloco_Titulo{
                 color: $Color1;
@@ -61,5 +61,38 @@
                 }
             }
         }
+    }
+}
+
+.Site_FooterFinal{
+    background-color: $Color1;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;
+    .Site_FooterFinal_Container{
+        width: 90%;
+        max-width: 1200px;
+        color: #000;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .Site_Footer{
+        .Site_Footer_Container{
+            grid-template-columns: 1fr;
+            .Footer_Container_Bloco{
+                text-align: center;
+                .Container_Bloco_Titulo{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .Site_FooterFinal{
+        text-align: center;
     }
 }

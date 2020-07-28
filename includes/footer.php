@@ -34,3 +34,8 @@
         </div>
     </div>
 </footer>
+<div class="Site_FooterFinal">
+    <div class="Site_FooterFinal_Container">
+        Bikecraft 2019 - Alguns direitos reservados.
+    </div>
+</div>
