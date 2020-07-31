@@ -43,8 +43,21 @@
                     </div>
                 </div>
             </div>
+            <div class="Principal_BlocoInicial_Fotos">
+                <img src="dist/img/img-sobre.jpg">
+            </div>
         </div>
     </div>
+
+    <div class="Sobre_Qualidade">
+        <div class="ComponentHeader">
+            <div class="ComponentHeader_TituloH2 __is-Preto">
+                Qualidade
+            </div>
+        </div>
+        <?php include('includes/qualidade-grafico.php'); ?>
+    </div>
+
 </div>
 
 <?php include('includes/footer.php'); ?>

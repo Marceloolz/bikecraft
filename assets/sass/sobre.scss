@@ -29,6 +29,22 @@
                     }
                 }
             }
+            .Principal_BlocoInicial_Fotos{
+                margin-top: 32px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .Sobre_Qualidade{
+        margin: 0px 0px 80px 0px;
+    }
+
+    .Bikecraft_Grafico{
+        .Bikecraft_Grafico_EncerramentoBlock{
+            display: none;
         }
     }
 }
