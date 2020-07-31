@@ -71,6 +71,168 @@
     }
 }
 
+.Produtos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .Produtos_Conteudo{
+        width: 90%;
+        max-width: 1200px;
+        margin: 64px 0px;
+        .Produtos_Conteudo_BannerModelo{
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-gap: 24px;
+            margin-bottom: 24px;
+            .Conteudo_BannerModelo_Imagem{
+                position: relative;
+                width: 100%;
+                padding: 109px 0px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:after{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    content: ' ';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-image: linear-gradient(45deg, #000000, #fec63e85, #00000000);
+                    z-index: 10;
+                    @extend %HoverSuave;
+                }
+                &:hover{
+                    &:after{
+                        opacity: 0;
+                    }
+                }
+                &.__BannerModelo_Foto1{
+                    background-image: url('../img/produtos/imagem1.jpg');
+                }
+                &.__BannerModelo_Foto2{
+                    background-image: url('../img/produtos/imagem2.jpg');
+                }
+                &.__BannerModelo_Foto3{
+                    background-image: url('../img/produtos/imagem3.jpg');
+                }
+                .BannerModelo_Imagem_Titulo{
+                    z-index: 12;
+                    color: $Color3;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 32px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    &:before{
+                        display: block;
+                        content: ' ';
+                        width: 80px;
+                        height: 4px;
+                        background-color: $Color3;
+                        margin-bottom: 16px;
+                    }
+                    &:after{
+                        display: block;
+                        content: ' ';
+                        width: 80px;
+                        height: 4px;
+                        background-color: $Color3;
+                        margin-top: 16px;
+                    }
+                }
+            }
+            .Conteudo_BannerModelo_Icone{
+                background-color: $Color2;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .Produtos_Conteudo_BannerComplexo{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 24px;
+            margin-bottom: 24px;
+            .Conteudo_BannerComplexo_Imagem{
+                width: 100%;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                &.__is-bannerComplexo_1{
+                    background-image: url('../img/produtos/imagem4.jpg');
+                }
+                &.__is-bannerComplexo_2{
+                    background-image: url('../img/produtos/imagem5.jpg');
+                }
+                &.__is-bannerComplexo_3{
+                    background-image: url('../img/produtos/imagem6.jpg');
+                }
+            }
+            .Conteudo_BannerComplexo_Content{
+                width: 100%;
+                background-color: $Color2;
+                .BannerComplexo_Content_Texto{
+                    color: $Color3;
+                    padding: 32px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-family: Georgia,Times,"Times New Roman",serif;
+                }
+                .BannerComplexo_Content_Grid{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 2px;
+                    .Content_Grid_Item{
+                        @extend %HoverSuave;
+                        background-color: $Color1;;
+                        color: $Color2;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 18px;
+                        text-align: center;
+                        padding: 12px;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: #2f2f2f;
+                            color: $Color3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 780px){
+    .Produtos{
+        .Produtos_Conteudo{
+            .Produtos_Conteudo_BannerModelo{
+                grid-template-columns: 1fr;
+                .Conteudo_BannerModelo_Icone{
+                    padding: 48px 0px;
+                }
+            }
+            .Produtos_Conteudo_BannerComplexo{
+                grid-template-columns: 1fr;
+                .Conteudo_BannerComplexo_Content{
+                    .BannerComplexo_Content_Texto{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 480px){
     .Site_Produtos{
         .Site_Produtos_Container{
