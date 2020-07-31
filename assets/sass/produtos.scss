@@ -210,6 +210,70 @@
             }
         }
     }
+    .Produtos_Orcamento{
+        background-color: $Color2;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 64px 0px;
+        .Produtos_Orcamento_Container{
+            width: 90%;
+            max-width: 1200px;
+            .Orcamento_Container_Conteudo{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 64px;
+                margin-top: 40px;
+                .Container_Conteudo_Secundario{
+                    .Conteudo_Secundario_Bloco{
+                        margin-bottom: 32px;
+                        .Secundario_Bloco_Titulo{
+                            text-transform: uppercase;
+                            color: $Color1;
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+                        .Secundario_Bloco_Texto{
+                            margin-top: 6px;
+                            color: $Color3;
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-family: Georgia,Times,"Times New Roman",serif;
+                            a{
+                                @extend %HoverSuave;
+                                text-decoration: none;
+                                color: $Color3;
+                                &:hover{
+                                    color: $Color1;
+                                }
+                            }
+                        }
+                        .Secundario_Bloco_Options{
+                            .Bloco_Options_Item{
+                                select{
+                                    width: 100%;
+                                    padding: 12px;
+                                    margin-top: 8px;
+                                    border: none;
+                                    color: #fff;
+                                }
+                                &.__is-Cinza{
+                                    select{
+                                        background-color: #292929;
+                                    }
+                                }
+                                &.__is-Preto{
+                                    select{
+                                        background-color: #0a0a0a;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 780px){
@@ -227,6 +291,14 @@
                     .BannerComplexo_Content_Texto{
                         text-align: center;
                     }
+                }
+            }
+        }
+        .Produtos_Orcamento{
+            .Produtos_Orcamento_Container{
+                .Orcamento_Container_Conteudo{
+                    display: flex;
+                    flex-direction: column-reverse;
                 }
             }
         }

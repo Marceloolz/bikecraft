@@ -21,6 +21,56 @@
             }
         }
     }
+    .Formgroup_Item{
+        margin-bottom: 24px;
+        .Formgroup_Item_Label{
+            font-family: Georgia,Times,"Times New Roman",serif;
+            font-size: 14px;
+            padding-bottom: 8px;
+            display: block;
+            &.__is-Branco{
+                color: $Color3;
+            }
+            &.__is-Preto{
+                color: $Color2;
+            }
+        }
+        .Formgroup_Item_Input{
+            &.__is-Preto{
+                input{
+                    padding: 14px;
+                    width: calc(100% - 28px);
+                    background-color: $Color2;
+                    border: 3px solid #4e4e4e;
+                    color: #fff;
+                    outline: none;
+                    @extend %HoverSuave;
+                    &:focus{
+                        border-color: $Color1;
+                        box-shadow: 0px 2px 20px #fec63e21;
+                    }
+                }
+            }
+        }
+
+        .Formgroup_Item_Textarea{
+            &.__is-Preto{
+                textarea{
+                    padding: 14px;
+                    width: calc(100% - 28px);
+                    background-color: $Color2;
+                    border: 3px solid #4e4e4e;
+                    color: #fff;
+                    outline: none;
+                    @extend %HoverSuave;
+                    &:focus{
+                        border-color: $Color1;
+                        box-shadow: 0px 2px 20px #fec63e21;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
