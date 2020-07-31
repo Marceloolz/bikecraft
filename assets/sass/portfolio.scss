@@ -7,42 +7,79 @@
     .Site_Porftolio_Container{
         width: 90%;
         max-width: 1200px;
-        .Porftolio_Container_Galeria{
-            margin-top: 32px;
-            .Container_Galeria_RowOne{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-gap: 12px;
-                .Galeria_RowOne_Item{
-                    img{
-                        width: 100%;
-                    }
-                }
-            }
-            .Container_Galeria_RowTwo{
-                margin-top: 8px;
-                .Galeria_RowTwo_Item{
-                    img{
-                        width: 100%;
-                    }
-                }
-            }
-        }
         .Porftolio_Container_EncerramentoBlock{
             margin-top: 32px;
         }
     }
 }
 
+.Porftolio_Container_Galeria{
+    margin-top: 32px;
+    .Container_Galeria_RowOne{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 12px;
+        .Galeria_RowOne_Item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .Container_Galeria_RowTwo{
+        margin-top: 8px;
+        .Galeria_RowTwo_Item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0px;
+    .Portfolio_Depoimento{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .Portfolio_Depoimento_Item{
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            .Depoimento_Item_Texto{
+                font-family: Georgia,Times,"Times New Roman",serif;
+                font-style: italic;
+                font-size: 16px;
+                line-height: 24px;
+                color: $Color2;
+            }
+            .Depoimento_Item_Autor{
+                font-weight: 800;
+                text-transform: uppercase;
+                font-size: 14px;
+                margin-top: 8px;
+                color: $Color2;
+            }
+        }
+    }
+    .Portfolio_Container{
+        width: 90%;
+        max-width: 1200px;
+    }
+}
+
 @media screen and (max-width: 640px){
     .Site_Porftolio{
         .Site_Porftolio_Container{
-            .Porftolio_Container_Galeria{
-                .Container_Galeria_RowOne{
-                    grid-template-columns: 1fr;
-                    grid-gap: 8px;
-                }
-            }
+            
+        }
+    }
+    .Porftolio_Container_Galeria{
+        .Container_Galeria_RowOne{
+            grid-template-columns: 1fr;
+            grid-gap: 8px;
         }
     }
 }

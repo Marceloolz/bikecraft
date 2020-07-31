@@ -41,9 +41,9 @@
                 </div>
                 <ul>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Portfólio</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
             <div class="Header_Container_MenuMobileIcone">
