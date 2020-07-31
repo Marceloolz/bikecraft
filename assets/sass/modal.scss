@@ -1,17 +1,16 @@
 .ModalOrcamento{
-    top: 9999999;
+    top: -9999999;
     position: fixed;
     left: 0;
     width: 100%;
     min-height: 100vh;
     background-color: #000;
-    opacity: 0!important;
-    z-index: -9999;
+    display: none;
     transition: 1s;
     &.__is-active{
         top: 0;
         z-index: 999;
-        opacity: 1!important;
+        display: block;
     }
     .ModalOrcamento_Close{
         position: fixed;

@@ -113,6 +113,9 @@
                             a{
                                 font-size: 32px;
                                 line-height: 40px;
+                                &:hover{
+                                    color: $Color1;
+                                }
                             }
                             margin: 16px 0px;
                             border-bottom: 2px solid #ececec;
