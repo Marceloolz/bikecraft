@@ -29,6 +29,7 @@
     <meta property="og:site_name" content="">
 </head>
 <!-- Fim do Include do header -->
+
 <body class="Site">
     <header class="Site_Header">
         <div class="Site_Header_Container">
@@ -67,7 +68,9 @@
             <div class="Superbanner_Container_Button Formgroup">
                 <div class="Container_Button_Content Formgroup_Button">
                     <button class="Formgroup_Button_Item __is-outline">
-                        Orçamento
+                        <a href="">
+                            Orçamento
+                        </a>
                     </button>
                 </div>
             </div>
@@ -200,7 +203,7 @@
                             O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem
                         </div>
                     </div>
-            
+
                     <div class="Grafico_Caracteristicas_Item">
                         <div class="Caracteristicas_Item_Titulo">
                             Design
@@ -209,7 +212,7 @@
                             O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem
                         </div>
                     </div>
-            
+
                     <div class="Grafico_Caracteristicas_Item">
                         <div class="Caracteristicas_Item_Titulo">
                             Sustentabilidade
@@ -254,10 +257,11 @@
                 </div>
                 <div class="Container_Bloco_Texto">
                     O verdadeiro segredo da felicidade está em ter um genuíno
-                    interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.
+                    interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida
+                    cotidiana.
                 </div>
             </div>
-    
+
             <div class="Footer_Container_Bloco">
                 <div class="Container_Bloco_Titulo">
                     Contato
@@ -268,12 +272,12 @@
                     - Botafogo - RJ
                 </div>
             </div>
-    
+
             <div class="Footer_Container_Bloco">
                 <div class="Container_Bloco_Titulo">
                     Redes sociais
                 </div>
-    
+
                 <div class="Container_Bloco_IconesRedesSociais">
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -288,6 +292,127 @@
         </div>
     </div>
     <!-- Fim do include do footer -->
+
+    <div class="ModalOrcamento">
+        <div class="Produtos_Orcamento">
+            <div class="Produtos_Orcamento_Container">
+                <div class="Orcamento_Container_Titulo ComponentHeader">
+                    <div class="ComponentHeader_TituloH2 __is-Amarelo">
+                        Orçamento
+                    </div>
+                </div>
+                <div class="Orcamento_Container_Conteudo">
+                    <form class="Container_Conteudo_Form Formgroup">
+                        <div class="Formgroup_Item">
+                            <label class="Formgroup_Item_Label __is-Branco">
+                                Nome
+                            </label>
+                            <div class="Formgroup_Item_Input __is-Preto">
+                                <input placeholder="Digite seu nome">
+                            </div>
+                        </div>
+
+                        <div class="Formgroup_Item">
+                            <label class="Formgroup_Item_Label __is-Branco">
+                                E-mail
+                            </label>
+                            <div class="Formgroup_Item_Input __is-Preto">
+                                <input placeholder="seu@email.com">
+                            </div>
+                        </div>
+
+                        <div class="Formgroup_Item">
+                            <label class="Formgroup_Item_Label __is-Branco">
+                                Telefone
+                            </label>
+                            <div class="Formgroup_Item_Input __is-Preto">
+                                <input placeholder="(00) 0000-0000">
+                            </div>
+                        </div>
+
+                        <div class="Formgroup_Item">
+                            <label class="Formgroup_Item_Label __is-Branco">
+                                Mensagem
+                            </label>
+                            <div class="Formgroup_Item_Textarea __is-Preto">
+                                <textarea rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="Container_Button_Content Formgroup_Button">
+                            <button class="Formgroup_Button_Item __is-outline">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                    <div class="Container_Conteudo_Secundario">
+                        <div class="Conteudo_Secundario_Bloco">
+                            <div class="Secundario_Bloco_Titulo">
+                                Dados
+                            </div>
+                            <div class="Secundario_Bloco_Texto">
+                                <a href="tel:5521999999999" target="_blank">+55 21 99999-9999</a></br>
+                                <a href="mailto:orcamento@bikcraft.com" target="_blank">orcamento@bikcraft.com</a>
+                            </div>
+                        </div>
+                        <div class="Conteudo_Secundario_Bloco">
+                            <div class="Secundario_Bloco_Titulo">
+                                Monte a sua Bikcraft
+                            </div>
+                            <div class="Secundario_Bloco_Texto">
+                                Escolha as especificações
+                            </div>
+                            <div class="Secundario_Bloco_Options">
+                                <div class="Bloco_Options_Item __is-Cinza">
+                                    <select id="cores" name="cores">
+                                        <option value="" selected disabled>- Cores</option>
+                                        <option value="AL">Branco</option>
+                                        <option value="AP">Preto</option>
+                                        <option value="AP">Amarelo</option>
+                                    </select>
+                                </div>
+
+                                <div class="Bloco_Options_Item __is-Preto">
+                                    <select id="cores" name="cores">
+                                        <option value="" selected disabled>- Estilo</option>
+                                        <option value="AL">Branco</option>
+                                        <option value="AP">Preto</option>
+                                        <option value="AP">Amarelo</option>
+                                    </select>
+                                </div>
+
+                                <div class="Bloco_Options_Item __is-Cinza">
+                                    <select id="cores" name="cores">
+                                        <option value="" selected disabled>- Acessórios</option>
+                                        <option value="AL">Branco</option>
+                                        <option value="AP">Preto</option>
+                                        <option value="AP">Amarelo</option>
+                                    </select>
+                                </div>
+
+                                <div class="Bloco_Options_Item __is-Preto">
+                                    <select id="cores" name="cores">
+                                        <option value="" selected disabled>- Medidas</option>
+                                        <option value="AL">Branco</option>
+                                        <option value="AP">Preto</option>
+                                        <option value="AP">Amarelo</option>
+                                    </select>
+                                </div>
+
+                                <div class="Bloco_Options_Item __is-Cinza">
+                                    <select id="cores" name="cores">
+                                        <option value="" selected disabled>- Outros</option>
+                                        <option value="AL">Branco</option>
+                                        <option value="AP">Preto</option>
+                                        <option value="AP">Amarelo</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
