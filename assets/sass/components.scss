@@ -39,10 +39,25 @@
             &.__is-Preto{
                 input{
                     padding: 14px;
-                    width: calc(100% - 28px);
+                    width: calc(100% - 34px);
                     background-color: $Color2;
                     border: 3px solid #4e4e4e;
                     color: #fff;
+                    outline: none;
+                    @extend %HoverSuave;
+                    &:focus{
+                        border-color: $Color1;
+                        box-shadow: 0px 2px 20px #fec63e21;
+                    }
+                }
+            }
+            &.__is-Branco{
+                input{
+                    padding: 14px;
+                    width: calc(100% - 34px);
+                    background-color: $Color3;
+                    border: 3px solid #d2d2d2;
+                    color: $Color2;
                     outline: none;
                     @extend %HoverSuave;
                     &:focus{
@@ -57,10 +72,25 @@
             &.__is-Preto{
                 textarea{
                     padding: 14px;
-                    width: calc(100% - 28px);
+                    width: calc(100% - 34px);
                     background-color: $Color2;
                     border: 3px solid #4e4e4e;
                     color: #fff;
+                    outline: none;
+                    @extend %HoverSuave;
+                    &:focus{
+                        border-color: $Color1;
+                        box-shadow: 0px 2px 20px #fec63e21;
+                    }
+                }
+            }
+            &.__is-Branco{
+                textarea{
+                    padding: 14px;
+                    width: calc(100% - 34px);
+                    background-color: $Color3;
+                    border: 3px solid #d2d2d2;
+                    color: $Color2;
                     outline: none;
                     @extend %HoverSuave;
                     &:focus{
@@ -225,6 +255,9 @@
     }
     &.__is-PagePortfolio{
         background-image: url('../img/superbanner-internas/sb-interna-portfolio.jpg');
+    }
+    &.__is-PageContato{
+        background-image: url('../img/superbanner-internas/sb-interna-contato.jpg');
     }
     .Superbanner_Internas_Container{
         width: 90%;

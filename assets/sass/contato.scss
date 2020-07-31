@@ -1,0 +1,68 @@
+.Contato{
+    .Contato_BlocoFinal{
+        display: flex;
+        justify-content: center;
+        padding: 64px 0px;
+        .Contato_BlocoFinal_Container{
+            width: 90%;
+            max-width: 1200px;
+            .BlocoFinal_Container_Conteudo{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 24px;
+                .Container_Conteudo_Secundario{
+                    .Conteudo_Secundario_Bloco{
+                        margin-bottom: 32px;
+                        .Container_Bloco_IconesRedesSociais{
+                            a{
+                                &:hover{
+                                    color: $Color2;
+                                    i{
+                                        border-color: $Color2;
+                                    }
+                                }
+                            }
+                        }
+                        .Secundario_Bloco_Titulo{
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            font-size: 16px;
+                        }
+                        .Secundario_Bloco_Texto{
+                            margin-top: 6px;
+                            color: $Color2;
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-family: Georgia,Times,"Times New Roman",serif;
+                            a{
+                                @extend %HoverSuave;
+                                text-decoration: none;
+                                color: $Color2;
+                                &:hover{
+                                    color: $Color1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .BlocoFinal_Container_Mapa{
+                width: 100%;
+                min-height: 300px;
+                margin-top: 48px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 780px){
+    .Contato{
+        .Contato_BlocoFinal{
+            .Contato_BlocoFinal_Container{
+                .BlocoFinal_Container_Conteudo{
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+    }
+}

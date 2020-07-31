@@ -9,55 +9,56 @@
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
         grid-gap: 16px;
-        .Footer_Container_Bloco{
-            .Container_Bloco_Titulo{
+    }
+}
+
+.Footer_Container_Bloco{
+    .Container_Bloco_Titulo{
+        color: $Color1;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+        &:after{
+            display: block;
+            content: ' ';
+            width: 80px;
+            height: 4px;
+            background-color: $Color1;
+            margin-top: 8px;
+        }
+    }
+    .Container_Bloco_Texto{
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: $Color3;
+        margin-top: 16px;
+        a{
+            @extend %HoverSuave;
+            text-decoration: none;
+            color: $Color3;
+            &:hover{
                 color: $Color1;
-                text-transform: uppercase;
-                font-size: 18px;
-                line-height: 24px;
-                font-weight: 700;
-                &:after{
-                    display: block;
-                    content: ' ';
-                    width: 80px;
-                    height: 4px;
-                    background-color: $Color1;
-                    margin-top: 8px;
-                }
             }
-            .Container_Bloco_Texto{
-                font-family: Georgia, Times, "Times New Roman", serif;
-                font-size: 16px;
-                line-height: 24px;
+        }
+    }
+    .Container_Bloco_IconesRedesSociais{
+        margin-top: 16px;
+        a{
+            text-decoration: none;
+            color: $Color1;
+            i{
+                @extend %HoverSuave;
+                font-size: 24px;
+                border: 2px solid $Color1;
+                padding: 12px 12px;
+                margin: 2px;
+            }
+            &:hover{
                 color: $Color3;
-                margin-top: 16px;
-                a{
-                    @extend %HoverSuave;
-                    text-decoration: none;
-                    color: $Color3;
-                    &:hover{
-                        color: $Color1;
-                    }
-                }
-            }
-            .Container_Bloco_IconesRedesSociais{
-                margin-top: 16px;
-                a{
-                    text-decoration: none;
-                    color: $Color1;
-                    i{
-                        @extend %HoverSuave;
-                        font-size: 24px;
-                        border: 2px solid $Color1;
-                        padding: 12px 12px;
-                        margin: 2px;
-                    }
-                    &:hover{
-                        color: $Color3;
-                        i{
-                            border-color: $Color3;
-                        }
-                    }
+                i{
+                    border-color: $Color3;
                 }
             }
         }
