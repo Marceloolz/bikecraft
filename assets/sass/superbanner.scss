@@ -65,7 +65,7 @@
         content: ' ';
         height: 100%;
         width: 100%;
-        background-color: #fec63ee6;
+        background-image: linear-gradient(45deg, #000000c9,#000000f0, #212121);
         top: 0;
         left: 0;
         position: absolute;
@@ -85,10 +85,10 @@
             text-transform: uppercase;
             font-weight: 700;
             font-size: 14px;
-            color: $Color2;
+            color: $Color3;
         }
         .Encerramento_Container_Subtitulo{
-            color: $Color2;
+            color: $Color3;
             text-align: center;
             font-size: 16px;
             line-height: 24px;
@@ -106,7 +106,7 @@
                 content: ' ';
                 width: 80px;
                 height: 4px;
-                background-color: $Color2;
+                background-color: $Color3;
                 margin-bottom: 16px;
             }
             &:after{
@@ -114,7 +114,7 @@
                 content: ' ';
                 width: 80px;
                 height: 4px;
-                background-color: $Color2;
+                background-color: $Color3;
                 margin-top: 16px;
             }
         }
