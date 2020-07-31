@@ -32,6 +32,7 @@
     <header class="Site_Header">
         <div class="Site_Header_Container">
             <div class="Header_Container_Logo">
+                <a href="index.php">
                 <img src="dist/img/logotipos/logotipo_bikecraft.png">
             </div>
             <nav class="Header_Container_Menu">
@@ -39,7 +40,7 @@
                     <i class="fas fa-times"></i>
                 </div>
                 <ul>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="sobre.php">Sobre</a></li>
                     <li><a href="#">Produtos</a></li>
                     <li><a href="#">Portfólio</a></li>
                     <li><a href="#">Contato</a></li>
