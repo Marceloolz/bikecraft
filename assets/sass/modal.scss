@@ -94,7 +94,7 @@
     .ModalOrcamento{
         .Produtos_Orcamento{
             .Produtos_Orcamento_Container{
-                height: 100vh;
+                height: calc(100vh - 80px);
                 overflow-y: scroll;
                 .Orcamento_Container_Conteudo{
                     display: flex;
