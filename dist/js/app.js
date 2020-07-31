@@ -13,6 +13,17 @@ $(document).ready(function(){
         $('.Header_Container_Menu').removeClass('__is-mobile');
         $('.Container_Menu_Close').removeClass('__is-active');
     });
+
+
+    //Abrir Modal
+    $('.AtivaOrcamento').click(function(){
+        $('.ModalOrcamento').addClass('__is-active');
+    });
+
+    //Fechar Modal
+    $('.ModalOrcamento_Close').click(function(){
+        $('.ModalOrcamento').removeClass('__is-active');
+    });
    
 
     //Slide de Produtos da Home

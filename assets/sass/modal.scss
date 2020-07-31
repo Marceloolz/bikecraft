@@ -6,6 +6,22 @@
     min-height: 100vh;
     background-color: #000;
     z-index: 999;
+    display: none;
+    &.__is-active{
+        display: block;
+    }
+    .ModalOrcamento_Close{
+        position: fixed;
+        top: 16px;
+        right: 24px;
+        z-index: 999999;
+        color: $Color1;
+        font-size: 24px;
+        cursor: pointer;
+        &:hover{
+            color: $Color3;
+        }
+    }
     .Produtos_Orcamento{
         background-color: $Color2;
         display: flex;
@@ -76,6 +92,8 @@
     .ModalOrcamento{
         .Produtos_Orcamento{
             .Produtos_Orcamento_Container{
+                height: 100vh;
+                overflow-y: scroll;
                 .Orcamento_Container_Conteudo{
                     display: flex;
                     flex-direction: column-reverse;
