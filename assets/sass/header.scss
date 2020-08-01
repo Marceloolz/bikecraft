@@ -1,8 +1,9 @@
 .Site{
     .Site_Header{
-        background-color: $Color1;
+        background-image: $GradientLaranja;
         display: flex;
         justify-content: center;
+        box-shadow: 0px 4px 13px #fec63e9c;
         .Site_Header_Container{
             width: 90%;
             max-width: 1200px;

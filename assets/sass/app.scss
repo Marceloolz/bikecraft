@@ -6,6 +6,8 @@ body{
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 @import 'variaveis.scss';
